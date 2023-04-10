@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.bg-color{
+    background-color: rgb(242 158 125);
+}
+.font-color{
+    color: hsl(0deg 0% 63.53%);
+}
+.text-color{
+    color: hsl(160deg 13.64% 34.51%);
+}
+.bg-color-green{
+    background-color: hsl(166.5deg 21.98% 35.69%);
+}
+.btn-purchase{
+    background-color: hsl(0deg 68.42% 88.82%);
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.btn-share{
+    background-color: hsl(167.37deg 27.94% 26.67%);
+    font-size: 18px;
+    font-weight: 700;
+}
+.bg-p{
+    background-color: hsl(168deg 30.97% 22.16%);
+}
+.montly-revenue{
+    font-weight: 500;
+}
+.month{
+    font-size: 20px;
+}
+.card-1-text{
+    font-size: 14px;
+}
+.card-2-text{
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-2-p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.card-3-text-1 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.card-3-text-2{
+font-size: 14px;
+}
+.next-bill{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-5-price{
+    font-size: 50px;
+    font-weight: 700;
+}
+.card-5-text{
+    font-weight: 500;
+}
+.card-6-text{
+    font-weight: 500;
+}
+.card-6-price{
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-6-mo{
+    font-size: 24px;
+    font-weight: 400;
+}
+.quick-books{
+    font-weight: 700;
+}
+.quick-books-text{
+    font-size: 12px;
+}
+.container{
+    background-color: black;
+}
+.card{
+    border-radius: 0;
+}
