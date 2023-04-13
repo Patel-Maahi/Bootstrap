@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: hsl(0deg 0% 6.67%);
+}
+$color-darkgray:hsl(210deg 12.5% 9.41%);
+
+
+
+$white:white;
+$lightblue:hsl(183.09deg 100% 45.69%);
+$gray:hsl(210.91deg 13.58% 52.35%);
+
+$color:(
+    'white': $white,
+    'lightblue':$lightblue,
+    'gray':$gray
+);
+@each $key,$value in $color {
+    .color-#{$key} {
+        color:($value);
+      }
+  }
+
+$d-flex: flex;
+$flex-column:column;
+$justify-content-center:center;
+$align-items-center:center;
+$justify-content-between:space-between;
+$justify-content-around:space-around;
+
+
+$display:(
+  'd-flex':$d-flex,
+  'flex-column':$flex-column, 
+  
+  
+);
+@each $key,$value in $display {
+    .#{$key} {
+        display:($value);
+      }
+  }
+
+ $justify-content:(
+    'justify-content-center':$justify-content-center,
+    'justify-content-between':$justify-content-between,
+    'justify-content-around':$justify-content-around
+ ) ;
+ @each $key,$value in $justify-content {
+    .#{$key} {
+        justify-content:($value);
+      }
+  }
+
+  $align-items:(
+    'align-items-center':$align-items-center,
+  );
+  @each $key,$value in $align-items {
+    .#{$key} {
+        align-items:($value);
+      }
+  }
+
+
+$font-size-14:14px;
+$font-size-18:18px;
+$font-size-20:20px;
+$font-size-24:24px;
+
+$font-size:(
+    'fs-14':$font-size-14,
+    'fs-18':$font-size-18,
+    'fs-20':$font-size-20,
+    'fs-24':$font-size-24
+);
+@each $key,$value in $font-size {
+    .#{$key} {
+        font-size:($value);
+      }
+  }
+
+  $mt-10:10px;
+  $mt-15:15px;
+  $mt-20:20px;
+  $mt-30:30px;
+  $ms-10:10px;
+  $ms-15:15px;
+  $ms-20:20px;
+  $ms-30:30px;
+  $me-10:10px;
+  $me-15:15px;
+  $me-20:20px;
+  $me-30:30px;
+  $mb-10:10px;
+  $mb-15:15px;
+  $mb-20:20px;
+  $mb-30:30px;
+  $mb-0:0px;
+
+  $margin-top:(
+    'mt-10':$mt-10,
+    'mt-15':$mt-15,
+    'mt-20':$mt-20,
+    'mt-30':$mt-30,
+  );
+  @each $key,$value in $margin-top{
+    .#{$key} {
+        margin-top:($value);
+      }
+  };
+
+  $margin-left:(
+    'ms-10':$ms-10,
+     'ms-15':$ms-15,
+     'ms-20':$ms-20,
+     'ms-30':$ms-30,
+  );
+  @each $key,$value in $margin-left{
+    .#{$key} {
+        margin-left:($value);
+      }
+  };
+
+  $margin-right:(
+    'me-10':$me-10,
+     'me-15':$me-15,
+     'me-20':$me-20,
+     'me-30':$me-30,
+  );
+  @each $key,$value in $margin-right{
+    .#{$key} {
+        margin-right:($value);
+      }
+  };
+
+  $margin-botton:(
+    'mb-10':$me-10,
+    'mb-15':$ms-15,
+     'mb-20':$ms-20,
+     'mb-30':$ms-30,
+    'mb-0':$mb-0,
+  );
+  @each $key,$value in $margin-botton{
+    .#{$key} {
+        margin-bottom:($value);
+      }
+  };
+
+
+  
+  
+
+// @mixin margin($top,$right,$bottom,$left){
+//  margin: $top,$right,$bottom,$left;
+// }
+
+@mixin padding($top,$right,$bottom,$left){
+   padding: $top $right $bottom $left;
+}  
+
+
+.sidebar{
+    height: 100%;
+    width: 200px;
+    background-color:$color-darkgray;
+    
+}
+.logo{
+    display: flex;
+    align-items: center; 
+}
+
+.links{
+    text-decoration: none;
+    @include padding(10px,10px ,10px ,10px )
+    
+}
+
+.link-list{
+    @include padding(10px,10px ,10px ,10px )
+    
+}
+.wrapper{
+    height: 100%;
+}
+
+.links:hover{
+    color: $lightblue;
+    background-color: black;
+}
+.container{
+    flex-grow: 1;
+}
+.head{
+    @include padding(20px,20px ,20px ,20px );
+    border-bottom: 1px solid rgb(129, 129, 129);
+}

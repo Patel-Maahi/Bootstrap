@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: hsl(0, 0%, 6.67%);
+}
+
+.color-white {
+  color: white;
+}
+
+.color-lightblue {
+  color: hsl(183.09, 100%, 45.69%);
+}
+
+.color-gray {
+  color: hsl(210.91, 13.58%, 52.35%);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  display: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.ms-10 {
+  margin-left: 10px;
+}
+
+.ms-15 {
+  margin-left: 15px;
+}
+
+.ms-20 {
+  margin-left: 20px;
+}
+
+.ms-30 {
+  margin-left: 30px;
+}
+
+.me-10 {
+  margin-right: 10px;
+}
+
+.me-15 {
+  margin-right: 15px;
+}
+
+.me-20 {
+  margin-right: 20px;
+}
+
+.me-30 {
+  margin-right: 30px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: hsl(210, 12.5%, 9.41%);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+}
+
+.link-list {
+  padding: 10px 10px 10px 10px;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.links:hover {
+  color: hsl(183.09, 100%, 45.69%);
+  background-color: black;
+}
+
+.container {
+  flex-grow: 1;
+}
+
+.head {
+  padding: 20px 20px 20px 20px;
+  border-bottom: 1px solid rgb(129, 129, 129);
+}/*# sourceMappingURL=style.css.map */
