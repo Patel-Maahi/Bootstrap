@@ -10,7 +10,8 @@ body{
 }
 .card{
     width: 100%;
-    max-width: 492px;
+    max-width: 1000px;
+    background-color: $color-white;
 }
 .card-img-top{
     width: 492px;
@@ -53,6 +54,8 @@ font-size: 24px;
     font-size: 13px;
 
 }
+
+
 .card-2-title-2{
     color: #90A4AE;
     font-weight: 400;
@@ -69,6 +72,11 @@ font-size: 8px;
 }
 .card-part-1{
     width: 298px;
+}
+@media(max-width:768px){
+    .card-part-1{
+        width: 476px;
+    } 
 }
 .card-part-2-heading{
     font-weight: 600;
