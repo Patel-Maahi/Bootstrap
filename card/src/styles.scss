@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+$color-white:white;
+
+body{
+    background-color: #E5E5E5;;
+    font-family: 'Inter';
+}
+.card-wrapper{
+    height: 100vh;
+}
+.card{
+    width: 100%;
+    max-width: 492px;
+}
+.card-img-top{
+    width: 492px;
+}
+.card-title{
+    color: #6E7491;
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-text{
+    color: #7C8DB0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-status-heading{
+    color: #6D8493;
+    font-size: 16px;
+    font-weight: 500;
+}
+.card-status-desc{
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-part-1{
+    background-color: #EB5757;
+}
+.card-2-heading{
+    color: $color-white;
+    font-weight: 400;
+font-size: 13px;
+}
+.card-2-title{
+    color: $color-white;
+    font-weight: 600;
+font-size: 24px;
+}
+.card-2-desc{
+    color: $color-white;
+    font-weight: 400;
+    font-size: 13px;
+
+}
