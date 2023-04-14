@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+@import'assets/base';
+@import'assets/component';
+@import'assets/layout';
+@import'assets/uitilities';
+
+
+// Required
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// Optional Bootstrap components here
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+// etc
