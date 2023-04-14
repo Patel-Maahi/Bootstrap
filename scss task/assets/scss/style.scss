@@ -10,6 +10,7 @@ html,body{
     width: 100%;
     font-family: 'Josefin Sans', sans-serif;
     background-color: hsl(0deg 0% 6.67%);
+    overflow: hidden;
 }
 $color-darkgray:hsl(210deg 12.5% 9.41%);
 
@@ -155,14 +156,6 @@ $font-size:(
       }
   };
 
-
-  
-  
-
-// @mixin margin($top,$right,$bottom,$left){
-//  margin: $top,$right,$bottom,$left;
-// }
-
 @mixin padding($top,$right,$bottom,$left){
    padding: $top $right $bottom $left;
 }  
@@ -191,16 +184,70 @@ $font-size:(
 }
 .wrapper{
     height: 100%;
+    overflow: hidden;
 }
 
 .links:hover{
     color: $lightblue;
     background-color: black;
+    border-radius: 5px;
 }
 .container{
+  display: flex;
+  flex-direction: column;
     flex-grow: 1;
 }
 .head{
     @include padding(20px,20px ,20px ,20px );
     border-bottom: 1px solid rgb(129, 129, 129);
+}
+.card{
+  background-color: hsl(210deg 12.5% 9.41%);
+  width: 320px;
+  border-radius: 8px;
+  
+}
+.card:hover{
+  box-shadow: 1px 1px 14px #1e1e1e;
+}
+.user{
+  text-align: center;
+}
+.user-info{
+  list-style: none;
+  
+}
+.user-info-list{
+  @include padding(10px,10px ,10px ,10px )
+}
+.social-media{
+  @include padding(10px,10px ,10px ,10px )
+}
+.globe{
+  color: purple;
+}
+.fa-instagram {
+  color: yellow;
+}
+.fa-facebook-f{
+  color: $lightblue;
+}
+.fa-youtube{
+  color: red;
+}
+.card-container{
+  @include padding(15px,0px ,15px ,15px )
+}
+.main-content{
+  overflow: auto;
+
+}
+.main-card-conatiner{
+  flex-wrap: wrap;
+}
+@media(max-width:768px){
+  .sidebar{
+    display: none;
+  }
+
 }
