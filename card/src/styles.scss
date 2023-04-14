@@ -14,7 +14,12 @@ body{
     background-color: $color-white;
 }
 .card-img-top{
+    width: 100%;
+}
+@media(min-width:768px){
+    .card-img-top{
     width: 492px;
+    }
 }
 .card-title{
     color: #6E7491;
